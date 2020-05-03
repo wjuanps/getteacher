@@ -4,10 +4,10 @@ import Header from "../Header";
 
 const Home = () => {
   return (
-    <div className="homepage">
-      <div id="page-wrapper">
-        <Header />
-      </div>
+    <div>
+      <Header />
+
+      <h1>Home</h1>
     </div>
   );
 };
